@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/starrykai/ilovereact/issues"
   },
-  "homepage": "https://github.com/starrykai/ilovereact#readme"
+  "homepage": "https://github.com/starrykai/ilovereact#readme",
+  "dependencies": {
+    "browser-sync": "^2.9.3"
+  }
 }
