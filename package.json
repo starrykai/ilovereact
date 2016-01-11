@@ -1,0 +1,22 @@
+{
+  "name": "ilovereact",
+  "version": "1.0.0",
+  "description": "第一个项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/starrykai/ilovereact.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "wukai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starrykai/ilovereact/issues"
+  },
+  "homepage": "https://github.com/starrykai/ilovereact#readme"
+}
