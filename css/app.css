@@ -22,5 +22,111 @@ body, html {
 }
 
 body {
-  background-color: rgba(255,255,0,0.3);
+  background-color: #1F1E34;
+  color: #FFF;
+  font-family: "Avenir Next",
+      "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,
+      Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  font-weight: 400;
+  color: #FFF;
+}
+
+a:hover {
+  font-weight: 400;
+  color: #DADADA;
+  text-decoration: none;
+}
+
+/*
+  * debug
+ */
+/*.section {
+  background-color: rgba(255,0,0,0.3);
+  border:2px solid #FFF;
+}*/
+
+.section {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+ *section 0
+ */
+#intro_section, #Android {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  padding: 10px;
+}
+
+/*
+ *section1
+*/
+
+#Native, #Touch {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone-demo {
+  flex-grow: 1;
+  align-self: stretch;
+  flex-basis: 0;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.feature-description {
+  flex-grow: 1;
+  align-self: stretch;
+  flex-basis: 0;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.iphone-image {
+  width: 300px;
+  height: 630px;
+  position: relative;
+}
+
+
+
+#tumblr-demo, #swype-demo {
+  position: absolute;
+  top: 90px;
+  left: 25px;
 }
