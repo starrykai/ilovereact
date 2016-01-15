@@ -21,6 +21,7 @@
   "homepage": "https://github.com/starrykai/ilovereact#readme",
   "dependencies": {
     "browser-sync": "^2.9.3",
+    "gsap": "^1.18.0",
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {
